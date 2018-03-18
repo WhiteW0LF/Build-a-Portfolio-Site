@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Mina" rel="stylesheet">
+    <!--fancybox-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
+    <!--icons-->
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
+    <!--picturefill-->
+    <script>
+        // Picture element HTML5 shiv
+        document.createElement( "picture" );
+    </script>
+    <script src="picturefill.js" async></script>
+
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+
+    <title>Oleh Syniak Portfolio</title>
+</head>
+<body>
+<!--******************************************HEADER-->
+    <div class="my_header">
+        <div class="logo">
+            <!--<img src="img/udacity.svg" alt="Udacity logo">-->
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Polymer_Project_logo.png" alt="Syniak logo">
+        </div>
+        <div class="my_name">
+            <h2>Oleh Syniak</h2>
+            <p>JUNIOR FRONT-END NINJA</p>
+        </div>
+    </div>
+<!--************************************************CAROUSEL-->
+<div class="container">
+    <div class="row">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <picture>
+                        <source srcset="img_resp/first-slide-300_sm.png" media="(max-width: 400px)">
+                        <source srcset="img_resp/first-slide-500_md.png" media="(max-width: 900px)">
+                        <img class="d-block w-100" src="img/first-slide.png" alt="First slide">
+                    </picture>
+                </div>
+                <div class="carousel-item">
+                    <picture>
+                        <source srcset="img_resp/second-slide-300_sm.png" media="(max-width: 400px)">
+                        <source srcset="img_resp/second-slide-500_md.png" media="(max-width: 900px)">
+                        <img class="d-block w-100" src="img/second-slide.png" alt="second slide">
+                    </picture>
+                </div>
+                <div class="carousel-item">
+                    <picture>
+                        <source srcset="img_resp/third-slide-300_sm.jpg" media="(max-width: 400px)">
+                        <source srcset="img_resp/third-slide-500_md.jpg" media="(max-width: 900px)">
+                        <img class="d-block w-100" src="img/third-slide.jpg" alt="third slide">
+                    </picture>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<!--******************************************my projects-->
+<div class="my-projects">
+    <h2>My projects</h2>
+    <div class="project">
+        <div class="prj-img">
+        <a data-fancybox="gallery" href="img/projects_img/tribute.png"><img src="img_resp/proj_resp/tribute-300_sm.png" alt="Tribute page"></a>
+        </div>
+        <div class="prj-text">
+            <a href="https://codepen.io/gwynbleidd95/full/XVqmmE" target="_blank"><p>Tribute page</p></a>
+            <hr>
+        </div>
+    </div>
+    <div class="project">
+        <div class="prj-img">
+        <a data-fancybox="gallery" href="img/projects_img/pixel.png"><img src="img_resp/proj_resp/pixel-300_sm.png" alt="Pixel Art Maker"></a>
+    </div>
+        <div class="prj-text">
+            <a href="https://codepen.io/gwynbleidd95/full/zPVxpP" target="_blank"><p>Pixel Art Maker</p></a>
+            <hr>
+        </div>
+    </div>
+    <div class="project">
+        <div class="prj-img">
+        <a data-fancybox="gallery" href="img/projects_img/web-designer.jpg"><img src="img_resp/proj_resp/web-designer-300_sm.jpg" alt="Web-desiger photo"></a>
+    </div>
+        <div class="prj-text">
+            <p>Further project</p>
+            <hr>
+        </div>
+    </div>
+</div>
+<!--***********************************************contact me-->
+<div class="contact">
+            <div class="contact-head"> <h2>Contact me</h2>
+            </div>
+                <div class="contact-form">
+                    <form action="#" id="contact-form">
+                        <div class="form-item">
+                            <input id="name" type="text" placeholder="Name">
+                        </div>
+                        <div class="form-item">
+                            <input id="email" type="email" placeholder="Email Address">
+                        </div>
+                        <div class="form-item">
+                            <input id="phone" type="tel" placeholder="Phone Number">
+                        </div>
+                        <div class="form-item">
+                            <textarea class="form-control" id="textarea1" rows="4" placeholder="Message"></textarea>
+                        </div>
+                    </form>
+                    <button class="btn" type="submit" id="btn-contact">Send <i class="fas fa-envelope"></i></button>
+                </div>
+        </div>
+<!--**************************FOOTER-->
+<footer>
+    <ul class="social">
+        <li ><a href="https://www.linkedin.com/in/syniak-int/" target="_blank" class="button-social"><i class="fab fa-linkedin-in"></i></a></li>
+        <li ><a href="https://github.com/WhiteW0LF" target="_blank" class="button-social"><i class="fab fa-github"></i></a></li>
+        <li ><a href="https://www.facebook.com/oleh.syniak" target="_blank" class="button-social"><i class="fab fa-facebook-f"></i></a></li>
+        <li ><a href="https://www.instagram.com/whitew_olf/" target="_blank" class="button-social"><i class="fab fa-instagram"></i></a></li>
+    </ul>
+    <p class="made_by"><strong>Made by Oleh Syniak.</strong></p>
+</footer>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!--fancybox-->
+<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+<script src="jquery.fancybox.min.js"></script>
+
+<script src="js/index.js"></script>
+
+</body>
+</html>

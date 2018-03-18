@@ -1,0 +1,51 @@
+@media screen and (max-width: 500px){
+    h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .carousel {
+        margin-bottom: 0;
+    }
+    .carousel-indicators{
+        bottom: 0;
+    }
+    .carousel-indicators li {
+        width: 10px;
+    }
+    .project {
+        width: 300px;
+    }
+    .contact-form {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 501px) {
+    .contact-form {
+        width: 80%;
+    }
+    .project {
+        width: 300px;
+    }
+    hr {
+        display: none;
+    }
+}
+@media screen and (min-width: 1000px){
+    body {
+        width: 1000px;
+        margin: auto;
+        font-size: 20px;
+    }
+    .project {
+        width: 31%;
+    }
+    .my_name {
+        font-size: 20px;
+    }
+    hr {
+        display: block;
+    }
+}
+body.fancybox-active {
+    margin: auto;
+}

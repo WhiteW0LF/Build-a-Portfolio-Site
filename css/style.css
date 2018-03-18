@@ -1,0 +1,135 @@
+body {
+    font-family: 'Mina', sans-serif;
+    padding: 0 5%;
+}
+/*------------------------------------header*/
+.my_header {
+    width: 100%;
+    max-height: 80px;
+    padding: 15px;
+    border-bottom: 2px solid #7d97ad;
+    display: flex;
+    margin-bottom: 10px;
+}
+.logo{
+    width: 10%;
+}
+.logo img {
+    height: 100%;
+}
+.my_name {
+    width: 90%;
+    text-align: right;
+    line-height: 0;
+    color: #2d3c49;
+    font-size: 13px;
+}
+.carousel {
+    width: 100%;
+    margin-bottom: 40px;
+}
+/*------------------------------------------projects*/
+.my-projects h2 {
+    color: #2d3c49;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.my-projects {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.project {
+    width: 30%;
+    margin: auto;
+    height: 250px;
+}
+/*    projects images   */
+.prj-img {
+    box-shadow: 0px 0px 5px 2px #7d97ad;
+    margin-bottom: 5px;
+}
+.prj-img img {
+    width: 100%;
+    height: 200px;
+}
+.prj-img:hover {
+    box-shadow: 0px 0px 5px 2px #2d3c49;
+}
+/*  projects text  */
+.prj-text {
+    text-align: center;
+    font-size: 20px;
+}
+.prj-text, a {
+    color: #7d97ad;
+}
+.prj-text a:hover {
+    color: #2d3c49;
+    text-decoration: none;
+}
+/*--------------------------------contact me*/
+.contact {
+    width: 100%;
+    color: #2d3c49;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.contact-head {
+    margin-bottom: 20px;
+    width: 100%;
+}
+.contact-form {
+    width: 50%;
+    margin: auto;
+}
+form div {
+    margin-bottom: 5px;
+}
+input,
+#textarea1 {
+    width: 100%;
+    /*background-color: #7d97ad;*/
+    border: none;
+    border-bottom:2px solid #7d97ad ;
+    color: #2d3c49;
+    text-align: center;
+
+}
+input:hover,
+#textarea1:hover {
+    border-color: #2d3c49;
+}
+#btn-contact {
+    margin-top: 10px;
+}
+#btn-contact:hover {
+    background-color: #02b3e4;
+}
+/*-----------------------------------------footer*/
+footer {
+    text-align: center;
+}
+footer li {
+    display: inline;
+}
+.button-social {
+    border: solid 2px #7d97ad;
+    border-radius: 50%;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 48px;
+    color: #7d97ad;
+}
+.button-social:hover {
+    color: #00b3ee;
+    background-color: #ffffff;
+    border-color: #2d3c49;
+}
+.made_by {
+     float: right;
+ }
