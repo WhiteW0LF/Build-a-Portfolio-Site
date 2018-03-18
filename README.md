@@ -2,15 +2,15 @@
 ## This is portfolio page for a Udacity Nanodegree Program project.
 
 This site was built using : 
--html
--css
--javascript
--jquery
--node.js
--bootstrap
--picturefill
--grunt
--and ect
+- html
+- css
+- javascript
+- jquery
+- node.js
+- bootstrap
+- picturefill
+- grunt
+- and ect
 
 
  
