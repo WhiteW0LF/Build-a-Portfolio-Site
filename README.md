@@ -1,5 +1,5 @@
 # Build-a-Portfolio-Site
-## This is portfolio page for a Udacity Nanodegree Program project.
+## This is my portfolio page.
 
 This site was built using : 
 - html
@@ -15,8 +15,6 @@ This site was built using :
 
  
 If you have something _questions_ or _recommendations_ , please contact me.
-
-> Pardon my english
 
 `Thank you`
 
